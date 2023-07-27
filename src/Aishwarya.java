@@ -1,27 +1,61 @@
-class Human {
-	
-	int i = 4;
-	
-	void display() {
-		
-		int i = 5;
-		
-		System.out.println(this.i);//keyword "this" is used to give priority to the object variable if
-									//local and global variable has the same name...
-	}
-}
 
-public class Aishwarya {
+//class Car {
+//	
+//	void ClimateControl() {
+//		System.out.println("ClimateControl of Polo");
+//	}
+//}
+//
+//
+//class Swift extends Car {
+//	
+//	void powerWindow() {
+//		System.out.println("PowerWindow");
+//	}
+//}
+//
+//class Polo extends Car{
+//	
+//	void abs() {
+//		System.out.println("abs");
+//	}
+//}
+//
+//public class Aishwarya {
+//
+//	public static void main(String[] args) {
+//		
+//		Swift s1 = new Swift();       s1.ClimateControl();     s1.powerWindow();
+//		 
+//		Polo p1 = new Polo();         p1.ClimateControl();     p1.abs();
+//	}	
+//}
 
-	public static void main(String[] args) {
-		
-		Human h1 = new Human();
-		Human h2 = new Human();
-		
-		h1.display();
-		h2.display();
-	}	
-}
+
+//class Human {
+//	
+//	int i = 4;
+//	
+//	void display() {
+//		
+//		int i = 5;
+//		
+//		System.out.println(this.i);//keyword "this" is used to give priority to the object variable if
+//									//local and global variable has the same name...
+//	}
+//}
+//
+//public class Aishwarya {
+//
+//	public static void main(String[] args) {
+//		
+//		Human h1 = new Human();
+//		Human h2 = new Human();
+//		
+//		h1.display();
+//		h2.display();
+//	}	
+//}
 
 
 //class Human {//you can have local variable as well as global variable with the same name but local
