@@ -1,31 +1,30 @@
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.Scanner;
-
-class AgeOver10Exception extends RuntimeException {
-	
-}
-
-public class Day4Exception {
-
-	public static void main(String[] args) throws IOException {
-		
-			Scanner sc = new Scanner(System.in);
-			
-			System.out.println("Enter your age!!!");
-			
-			int age = sc.nextInt();
-			
-			if(age <= 10) {
-				System.out.println("You are welcome...");
-			}
-			else {
-				throw new AgeOver10Exception();
-			}
-	}
-}
+//import java.io.File;
+//import java.io.FileReader;
+//import java.io.IOException;
+//import java.util.Scanner;
+//class AgeOver10Exception extends RuntimeException {
+//	
+//}
+//
+//public class Day4Exception {
+//
+//	public static void main(String[] args) {
+//		
+//			Scanner sc = new Scanner(System.in);
+//			
+//			System.out.println("Enter your age!!!");
+//			
+//			int age = sc.nextInt();
+//			
+//			if(age <= 10) {
+//				System.out.println("You are welcome...");
+//			}
+//			else {
+//				throw new AgeOver10Exception();
+//			}
+//	}
+//}
 
 
 
